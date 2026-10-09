@@ -317,7 +317,6 @@
 
 //Returns a string with the first element of the string capitalized.
 /proc/capitalize(t as text)
-	return uppertext(copytext(t, 1, 2)) + copytext(t, 2)
 	if (!length(t))
 		return t
 	var/first = text2ascii_char(t, 1)
